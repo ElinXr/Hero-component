@@ -19,7 +19,7 @@ html {
   background: $background;
 }
 
-section[class$="hero"] {
+section[class|="hero"] {
   height: 350px;
 }
 
