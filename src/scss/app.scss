@@ -19,19 +19,20 @@ html {
   background: $background;
 }
 
-section .hero {
+section[class$="hero"] {
   height: 350px;
 }
 
-h1 .title {
+h1[class$="title"] {
  padding: 50px 0px 10px; 
 }
 
-button .button {
+button[class$="button"] {
  padding: 20px 40px;
  margin-left: 5px;
 }
 
-div .button-container {
+div[class$="button-container"] {
   margin-top: 30px;
 }
+  
